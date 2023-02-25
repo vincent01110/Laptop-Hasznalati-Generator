@@ -1,0 +1,1 @@
+# Laptop Használati Engedély Generátor V1
