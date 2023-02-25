@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="313.0" prefWidth="302.0" style="-fx-background-color: #201E1E; -fx-color: white;" xmlns="http://javafx.com/javafx/18.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.main.laptop_hasznalati.MainController">
+   <children>
+      <TextField fx:id="nameField" layoutX="138.0" layoutY="80.0" promptText="Julius Caesar" />
+      <TextField fx:id="idField" layoutX="138.0" layoutY="115.0" promptText="21550000" />
+      <TextField fx:id="typeField" layoutX="139.0" layoutY="149.0" promptText="HP Elitebook xxxxx" />
+      <TextField fx:id="pNumberField" layoutX="138.0" layoutY="185.0" promptText="P01220000" />
+      <TextField fx:id="snField" layoutX="138.0" layoutY="222.0" promptText="xxxxxxxxxxx" />
+      <Label layoutX="47.0" layoutY="24.0" prefHeight="27.0" prefWidth="222.0" text="Laptop Használati Engedély" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="saveButton" layoutX="102.0" layoutY="272.0" mnemonicParsing="false" onAction="#saveToPDF" text="Mentés PDF-be" />
+      <Label layoutX="110.0" layoutY="83.0" prefHeight="18.0" prefWidth="27.0" text="Név:" textAlignment="RIGHT" textFill="WHITE" />
+      <Label layoutX="70.0" layoutY="118.0" prefHeight="18.0" prefWidth="63.0" text="Gyári szám:" textAlignment="RIGHT" textFill="WHITE" />
+      <Label layoutX="55.0" layoutY="188.0" prefHeight="18.0" prefWidth="79.0" text="Laptop száma:" textAlignment="RIGHT" textFill="WHITE" />
+      <Label layoutX="70.0" layoutY="226.0" text="Laptop S/N:" textAlignment="RIGHT" textFill="WHITE" />
+      <Label layoutX="57.0" layoutY="153.0" text="Laptop típusa:" textAlignment="RIGHT" textFill="WHITE" />
+   </children>
+</AnchorPane>
